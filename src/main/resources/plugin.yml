@@ -1,0 +1,18 @@
+name: Commands
+main: club.palmtrww.commands.Cmd
+version: V2
+description: Building custom commands
+commands:
+  fly:
+    description: Puts you into fly
+    usage: /<command>
+    aliases: flight
+  feed:
+    description: Feeds player to max saturation
+    usage: /<command>
+    aliases: unhung
+
+  god:
+    description: Puts you into a unkilliable state
+    usage: /<command>
+    aliases: nodie
